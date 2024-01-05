@@ -1,14 +1,13 @@
 import React from "react";
 import { useState  } from 'react';
 import Modal from "./Modal";
-
+import Header from "./Header";
 function Home()
 {
-
     const [open, setOpen] = useState(false);
-
     return(
         <>
+        <Header />
      <div className="relative isolate px-6 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -22,7 +21,7 @@ function Home()
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-20 sm:py-34 lg:py-20">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Data to enrich your online business
