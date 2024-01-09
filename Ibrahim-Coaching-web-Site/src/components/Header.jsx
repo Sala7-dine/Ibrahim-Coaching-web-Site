@@ -1,15 +1,18 @@
 import { useState  } from 'react';
 import {Bars3Icon,XMarkIcon,} from '@heroicons/react/24/outline';
-import logo from "../assets/logob.svg";
+import logo from "../assets/logo.svg";
+import logob from "../assets/logob.svg";
 import { Dialog } from '@headlessui/react';
 import Modal from './Modal';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 const navigation = [
 
-  { name: 'Home', href: '#' },
-  { name: 'à propos', href: '#' },
-  { name: 'Programme', href: '#' },
-  { name: 'Transformations', href: '#' },
+  { name: 'Home', href: '#home' },
+  { name: 'à propos', href: '#about' },
+  { name: 'Programme', href: '#programme' },
+  { name: 'Transformations', href: '#transformation' },
 
 ]
 
@@ -36,7 +39,7 @@ function Header() {
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-900"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -45,14 +48,14 @@ function Header() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-bold leading-6 text-gray-900 hover:text-indigo-600">
+              <Link key={item.name} to={item.href} className="text-sm font-bold leading-6 text-gray-300 hover:text-indigo-950" smooth>
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <button onClick={() => setOpen(true)}>
-            <a href="#" className="text-sm font-bold leading-6 text-gray-900 hover:text-indigo-600">
+            <a href="#" className="text-sm font-bold leading-6 text-gray-200 hover:text-indigo-900">
               Contact <span aria-hidden="true">&rarr;</span>
             </a>
             </button>
@@ -67,7 +70,7 @@ function Header() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src={logo}
+                  src={logob}
                   alt=""
                 />
               </a>
@@ -84,13 +87,14 @@ function Header() {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
-                      href={item.href}
+                      to={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      smooth
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
                 <div className="py-6">
@@ -113,9 +117,9 @@ function Header() {
             </div>
           </Dialog.Panel>
         </Dialog>
+        <hr className="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-100 to-transparent opacity-100" />
       </header>
 
-      <hr className="my-20 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
 
       <Modal open={open} setOpen={setOpen}/>
 

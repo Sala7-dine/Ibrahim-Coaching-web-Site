@@ -1,22 +1,27 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
+import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import ForgetPassword from "./components/ForgetPassword";
 import AuthProvider from "./AuthContext/AuthContext";
 import Dashboard from "./Dashboard/Dashboard"
 import RequireAuth from "./AuthContext/RequireAuth";
+import About from "./components/About";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import Programme from "./components/Programme";
+import Transformations from "./components/Transformations";
+import Review from "./components/Review";
+
 
 function App() {
   return (
     <>
-      <div className="container">
+      
         <Router>
+        <Header />
           <AuthProvider>
-        
             <Routes>
-              
               <Route path="/" element={<Home />} />
               <Route path="/Login" element={<Login />} />
               <Route path="/Signup" element={<Signup />} />
@@ -28,10 +33,12 @@ function App() {
               } />
             </Routes>
           </AuthProvider>
-
         </Router>
 
-      </div>
+        <About />
+        <Programme />
+        <Transformations />
+        <Review />
 
     </>
   )

@@ -2,6 +2,7 @@ import {React , useState , useRef } from 'react';
 import { Link , useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../AuthContext/AuthContext';
 import logo from "../assets/logob.svg";
+import gym from "../assets/gym3.jpg";
 
 const Login = () => {
 
@@ -35,7 +36,8 @@ const Login = () => {
   return (
     <>
 
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 mt-24">
+<div className='container mx-auto flex items-center justify-center h-screen overflow-hidden'>
+<div className="min-h-full flex-1 flex-col justify-center lg:px-8 md:px-6 mt-52">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             className="mx-auto h-10 w-auto"
@@ -62,6 +64,7 @@ const Login = () => {
                   name="email"
                   type="email"
                   autoComplete="email"
+                  placeholder='Enter your email here'
                   required
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -86,6 +89,7 @@ const Login = () => {
                   name="password"
                   type="password"
                   autoComplete="current-password"
+                  placeholder='Enter your password here'
                   required
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -116,6 +120,12 @@ const Login = () => {
           </p>
         </div>
       </div>
+
+      <div className='flex-1 w-full hidden lg:block  min-h-full bg-gym bg-cover'>
+        
+      </div>
+</div>
+      
     </>
   )
 }
