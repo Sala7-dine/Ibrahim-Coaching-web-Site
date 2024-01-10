@@ -8,7 +8,12 @@ export default {
     extend: {
       backgroundImage : {
         "gym" : "url(./src/assets/gym3.jpg)",
-        "bgym" :"url(./src/assets/bgym.png)"
+        "bgym" :"url(./src/assets/bgym.png)",
+        "pic" : "url(./src/assets/pic.png)",
+        "cy1" : "url(./src/assets/cyrcle1.png)",
+        "cy2" : "url(./src/assets/cyrcle2.png)",
+        "cy3" : "url(./src/assets/cyrcle3.png)",
+        "zoom" : "url(./src/assets/zoom.png)",
       },
       keyframes: {
         typing: {

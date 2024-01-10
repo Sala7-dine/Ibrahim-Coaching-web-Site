@@ -12,7 +12,8 @@ import Header from "./components/Header";
 import Programme from "./components/Programme";
 import Transformations from "./components/Transformations";
 import Review from "./components/Review";
-
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
         <Programme />
         <Transformations />
         <Review />
+        <Contact />
+        <Footer />
 
     </>
   )

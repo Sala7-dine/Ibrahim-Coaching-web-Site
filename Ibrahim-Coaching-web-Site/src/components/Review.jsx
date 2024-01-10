@@ -4,20 +4,21 @@ import person from "../assets/person.png";
 const Review = () => {
 
     return (
-        <section className=" lg:mt-20" id='review'>
+        <section className="bg-cy2 bg-cover py-7 sm:py-20" id='review'>
+
             <div className="mx-auto px-4 lg:w-11/12">
                 <div className="relative lg:ml-96">
                     <h1
                         className="absolute -top-20 left-28 lg:text-[100px] text-gray-900 font-bold opacity-5 lg:block hidden">
                         Reviews
                     </h1>
-                    <h1 className="pl-32 text-3xl font-bold border-l-8 border-indigo-600 md:text-5xl">
-                        Avis des clients
+                    <h1 className="pl-32 text-3xl font-bold border-l-8 border-blue-600 md:text-5xl">
+                        Avis des clients    
                     </h1>
                 </div>
                 <div className="grid grid-cols-1 mt-12 gap-6 md:grid-cols-2 lg:grid-cols-4 w-full p-10">
                     <div
-                        class="w-full p-4 text-center transition-all bg-indigo-200  rounded shadow hover:shadow-lg">
+                        class="w-full p-4 text-center transition-all bg-white  rounded shadow hover:shadow-lg">
                         <div class="inline-block mb-4 rounded-full">
                             <img class="object-cover w-20 h-20 mr-4 rounded-full shadow"
                                 src={person} alt="avatar" />
@@ -26,7 +27,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -37,7 +38,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -48,7 +49,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -59,7 +60,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -70,7 +71,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -81,7 +82,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -99,7 +100,7 @@ const Review = () => {
                         </div>
                     </div>
                     <div
-                        class="w-full p-4 text-center transition-all bg-indigo-200  rounded shadow hover:shadow-lg">
+                        class="w-full p-4 text-center transition-all bg-white  rounded shadow hover:shadow-lg">
                         <div class="inline-block mb-4 rounded-full">
                             <img class="object-cover w-20 h-20 mr-4 rounded-full shadow"
                                 src={person} alt="avatar" />
@@ -108,7 +109,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -119,7 +120,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -130,7 +131,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -141,7 +142,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -152,7 +153,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -163,7 +164,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -181,7 +182,7 @@ const Review = () => {
                         </div>
                     </div>
                     <div
-                        class="w-full p-4 text-center transition-all bg-indigo-200  rounded shadow hover:shadow-lg">
+                        class="w-full p-4 text-center transition-all bg-white  rounded shadow hover:shadow-lg">
                         <div class="inline-block mb-4 rounded-full">
                             <img class="object-cover w-20 h-20 mr-4 rounded-full shadow"
                                 src={person} alt="avatar" />
@@ -190,7 +191,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -201,7 +202,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -212,7 +213,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -223,7 +224,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -234,7 +235,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -245,7 +246,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -263,7 +264,7 @@ const Review = () => {
                         </div>
                     </div>
                     <div
-                        class="w-full p-4 text-center transition-all bg-indigo-200  rounded shadow hover:shadow-lg">
+                        class="w-full p-4 text-center transition-all bg-white  rounded shadow hover:shadow-lg">
                         <div class="inline-block mb-4 rounded-full">
                             <img class="object-cover w-20 h-20 mr-4 rounded-full shadow"
                                 src={person} alt="avatar" />
@@ -272,7 +273,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -283,7 +284,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -294,7 +295,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -305,7 +306,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -316,7 +317,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -327,7 +328,7 @@ const Review = () => {
                             <li>
                                 <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="w-4 mr-1 text-indigo-600  bi bi-star-fill"
+                                        class="w-4 mr-1 text-blue-600  bi bi-star-fill"
                                         viewBox="0 0 16 16">
                                         <path
                                             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
@@ -350,13 +351,12 @@ const Review = () => {
                 </div>
             </div>
 
-
-            <div class="flex items-center justify-center py-16 font-poppins">
+            <div class="flex items-center justify-center py-5 font-poppins">
         <div class="p-4 mx-auto w-full">
-            <h2 class="pb-8 text-4xl font-bold text-center text-gray-800 md:text-6xl ">
+            <h2 class="pb-8 text-4xl font-bold text-center text-gray-800 md:text-6xl">
             Ils en parlent mieux que moi !
             </h2>
-            <div class="mx-auto mb-16 border-b border-indigo-600 w-3/5"></div>
+            <div class="mx-auto mb-16 border-b border-blue-600 w-3/5"></div>
             <div class="flex flex-wrap justify-center p-10">
                 <div class="w-full px-2 sm:w-2/4">
                     <div class="mb-8 w-full ">
@@ -416,7 +416,9 @@ const Review = () => {
                 </div>
             </div>
         </div>
-    </div>
+            </div>
+
+
         </section>
     )
 }

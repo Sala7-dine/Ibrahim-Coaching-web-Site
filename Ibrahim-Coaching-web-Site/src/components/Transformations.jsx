@@ -6,22 +6,19 @@ import React from 'react';
 // import Tr5 from "../assets/Tr5.png";
 // import Tr6 from "../assets/Tr6.png";
 
-
-
-
 const Transformations = () => {
   return (
-    <section className="flex items-center py-7 font-poppins" id='transformation'>
+    <section className="flex items-center py-7 font-poppins mt-12" id='transformation'>
 
     <div className="max-w-6xl p-4 mx-auto">
     <div className="relative ml-10 mb-16 lg:mb-32 lg:ml-24">
-                        <h1
-                            className="absolute -top-16  left-48 lg:text-[80px] text-gray-900 font-bold opacity-5 lg:block hidden">
-                            Transoformations
-                        </h1>
-                        <h1 className="pl-16 text-xl font-bold border-l-8 border-indigo-600 md:text-5xl">
-                        Quelques Avant et Après de mes coachés
-                        </h1>
+        <h1
+            className="absolute -top-16  left-48 lg:text-[80px] text-gray-900 font-bold opacity-5 lg:block hidden">
+            Transoformations
+        </h1>
+        <h1 className="pl-16 text-xl font-bold border-l-8 border-blue-600 md:text-5xl">
+        Quelques Avant et Après de mes coachés
+        </h1>
         </div>
         <div className="flex flex-wrap -m-1 md:-m-2">
             <div className="w-full px-4 mb-8 lg:w-2/5 ">

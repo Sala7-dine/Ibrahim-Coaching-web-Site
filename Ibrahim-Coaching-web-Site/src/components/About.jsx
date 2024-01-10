@@ -4,7 +4,6 @@ import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
 import img4 from "../assets/img4.jpg";
 
-
 const About = () => {
   return (
     <section className="flex items-center -mt-28 lg:mt-40 xl:h-screen font-poppins" id='about'> 
@@ -16,7 +15,7 @@ const About = () => {
                             className="absolute -top-20 left-16 lg:text-[100px] text-gray-900 font-bold opacity-5 lg:block hidden">
                             À PROPOS
                         </h1>
-                        <h1 className="pl-12 text-3xl font-bold border-l-8 border-indigo-600 lg:text-5xl">
+                        <h1 className="pl-12 text-3xl font-bold border-l-8 border-blue-600 lg:text-5xl">
                         Bienvenue sur mon site
                         </h1>
         </div>
@@ -42,7 +41,7 @@ const About = () => {
                 </div>
                 
                 <div className="w-full px-4 mb-10 xl:w-1/2 lg:mb-8">
-                <div className="pl-4 mb-6 border-l-4 border-indigo-600 ">
+                <div className="pl-4 mb-6 border-l-4 border-blue-600 ">
                         <h1 className="mt-2 text-3xl font-black md:text-4xl text-gray-900">
                         Qui suis-je ?
                         </h1>
@@ -65,7 +64,7 @@ const About = () => {
                     <ul className="grid grid-cols-2">
                         <div>
                         <li className="flex items-center mb-4 text-base font-semibold text-gray-800">
-                            <span className="mr-3 text-indigo-500">
+                            <span className="mr-3 text-blue-500">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     className="w-5 h-5 bi bi-patch-check-fill" viewBox="0 0 16 16">
                                     <path
@@ -75,7 +74,7 @@ const About = () => {
                             Ni ton physique.
                         </li>
                         <li className="flex items-center mb-4 text-base font-semibold text-gray-800">
-                            <span className="mr-3 text-indigo-500">
+                            <span className="mr-3 text-blue-500">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     className="w-5 h-5 bi bi-patch-check-fill" viewBox="0 0 16 16">
                                     <path
@@ -87,7 +86,7 @@ const About = () => {
                         </div>
                         <div>
                         <li className="flex items-center mb-4 text-base font-semibold text-gray-800">
-                            <span className="mr-3 text-indigo-500">
+                            <span className="mr-3 text-blue-500">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     className="w-5 h-5 bi bi-patch-check-fill" viewBox="0 0 16 16">
                                     <path
@@ -97,7 +96,7 @@ const About = () => {
                             Ni ton sexe.
                         </li>
                         <li className="flex items-center mb-4 text-base font-semibold text-gray-800">
-                            <span className="mr-3 text-indigo-500">
+                            <span className="mr-3 text-blue-500">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     className="w-5 h-5 bi bi-patch-check-fill" viewBox="0 0 16 16">
                                     <path

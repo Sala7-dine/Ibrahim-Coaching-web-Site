@@ -48,17 +48,16 @@ function Header() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <Link key={item.name} to={item.href} className="text-sm font-bold leading-6 text-gray-300 hover:text-indigo-950" smooth>
+              <Link key={item.name} to={item.href} className="text-sm font-semibold leading-6 text-gray-300 hover:text-black" smooth>
                 {item.name}
               </Link>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <button onClick={() => setOpen(true)}>
-            <a href="#" className="text-sm font-bold leading-6 text-gray-200 hover:text-indigo-900">
+            
+            <Link to="#contact" className="text-sm font-bold leading-6 text-gray-200 hover:text-black" smooth>
               Contact <span aria-hidden="true">&rarr;</span>
-            </a>
-            </button>
+            </Link>
             
           </div>
         </nav>
